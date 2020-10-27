@@ -11,12 +11,12 @@
 		CE32F63C25489A09003B3A65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32F63B25489A09003B3A65 /* SceneDelegate.swift */; };
 		CE32F64325489A0A003B3A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32F64225489A0A003B3A65 /* Assets.xcassets */; };
 		CE32F64625489A0A003B3A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32F64425489A0A003B3A65 /* LaunchScreen.storyboard */; };
-		CE32F64F25489A38003B3A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32F64D25489A37003B3A65 /* Main.storyboard */; };
 		CE32F65525489AD2003B3A65 /* QuestionsVieweController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32F65225489AD2003B3A65 /* QuestionsVieweController.swift */; };
 		CE32F65625489AD2003B3A65 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32F65325489AD2003B3A65 /* IntroductionViewController.swift */; };
 		CE32F65725489AD2003B3A65 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32F65425489AD2003B3A65 /* ResultsViewController.swift */; };
 		CE32F65C25489B3B003B3A65 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32F65A25489B3B003B3A65 /* Question.swift */; };
 		CE32F65D25489B3B003B3A65 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32F65B25489B3B003B3A65 /* Answer.swift */; };
+		CEDDB61F2548B9A900545802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDB61E2548B9A900545802 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		CE32F64225489A0A003B3A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE32F64525489A0A003B3A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE32F64725489A0A003B3A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE32F64E25489A37003B3A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Lesson 5/PersonalQuiz/PersonalQuiz/Storyboards/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		CE32F65225489AD2003B3A65 /* QuestionsVieweController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsVieweController.swift; sourceTree = "<group>"; };
 		CE32F65325489AD2003B3A65 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		CE32F65425489AD2003B3A65 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		CE32F65A25489B3B003B3A65 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CE32F65B25489B3B003B3A65 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		CEDDB61E2548B9A900545802 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		CE32F65125489A65003B3A65 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				CE32F64D25489A37003B3A65 /* Main.storyboard */,
+				CEDDB61E2548B9A900545802 /* Main.storyboard */,
 				CE32F64425489A0A003B3A65 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -179,7 +179,7 @@
 			files = (
 				CE32F64625489A0A003B3A65 /* LaunchScreen.storyboard in Resources */,
 				CE32F64325489A0A003B3A65 /* Assets.xcassets in Resources */,
-				CE32F64F25489A38003B3A65 /* Main.storyboard in Resources */,
+				CEDDB61F2548B9A900545802 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,14 +209,6 @@
 				CE32F64525489A0A003B3A65 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		CE32F64D25489A37003B3A65 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE32F64E25489A37003B3A65 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
